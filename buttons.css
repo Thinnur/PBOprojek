@@ -1,0 +1,74 @@
+/* Form button style */
+.form-button {
+    background-color: #EAE0D5;
+    border: none;
+    border-radius: 6px;
+    color: #333333;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.form-button:hover {
+    background-color: #D4CFC4;
+}
+
+/* Style for home buttons - WITHOUT format strings */
+.button-tambah {
+    background-color: #EAE0D5;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 300px;
+}
+
+.button-tambah:hover {
+    background-color: #D4CFC4;
+}
+
+.button-saldo {
+    background-color: #C6AC8F;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 300px;
+}
+
+.button-saldo:hover {
+    background-color: #B59A7F;
+}
+
+.button-riwayat {
+    background-color: #5E503F;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 300px;
+}
+
+.button-riwayat:hover {
+    background-color: #4E3B2B;
+}
+
+.button-keluar {
+    background-color: #22333B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 300px;
+}
+
+.button-keluar:hover {
+    background-color: #1E2A30;
+}

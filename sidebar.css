@@ -1,0 +1,41 @@
+/* Menu toggle container */
+.menu-toggle {
+    background-color: #1e1e1e;
+    border-right: 1px solid #333333;
+}
+
+/* Sidebar scroll area */
+QScrollArea.sidebar {
+    background-color: #1e1e1e;
+    border-right: 1px solid #333333;
+    border: none;
+}
+
+QScrollBar:vertical {
+    width: 8px;
+    background: #1e1e1e;
+}
+
+QScrollBar::handle:vertical {
+    background: #666666;
+    border-radius: 4px;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+/* Sidebar header */
+QLabel.sidebar-header {
+    color: #0A0908;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+/* Additional sidebar styles */
+QScrollArea {
+    background-color: #1e1e1e;
+    /* ... */
+}

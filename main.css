@@ -1,0 +1,52 @@
+/* Reset dan namespace untuk mencegah konflik */
+* {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Atur warna dasar untuk window dan widget level atas */
+QMainWindow, QWidget {
+    background-color: #ffffff;
+    color: #0A0908;
+}
+
+QLabel {
+    color: #0A0908;
+    background-color: #ffffff;
+}
+
+QLabel.header {
+    color: #0A0908;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Styling untuk sidebar/menu kiri */
+#leftMenu {
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+/* Styling untuk tombol-tombol menu */
+#leftMenu QPushButton {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333333;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+#leftMenu QPushButton:hover {
+    background-color: #e0e0e0;
+}
+
+#leftMenu QPushButton#keluar {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    color: #333333;
+}

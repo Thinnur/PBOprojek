@@ -1,0 +1,46 @@
+/* Style for saldo table */
+.table-saldo {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #C6AC8F;
+    gridline-color: #D8D0C3;
+}
+
+.table-saldo QHeaderView::section {
+    background-color: #C6AC8F;
+    color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+.table-saldo QTableWidget::item {
+    padding: 8px;
+}
+
+/* Style for riwayat table */
+.table-riwayat {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #5E503F;
+    gridline-color: #8C7A6B;
+}
+
+.table-riwayat QHeaderView::section {
+    background-color: #5E503F;
+    color: white;
+    padding: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+.table-riwayat QTableWidget::item {
+    padding: 8px;
+}
+
+.saldo-total {
+    color: #5E503F;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
